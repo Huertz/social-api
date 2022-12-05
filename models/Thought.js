@@ -66,7 +66,6 @@ thoughtSchema.virtual("reactionCount").get(function () {
   return this.reactions.length;
 });
 
-mongoose.model('thought', reactionSchema)
-
+const Thought = model('Thought', thoughtSchema);
 // Exports thought
 module.exports = Thought;
