@@ -1,0 +1,24 @@
+{
+  "name": "social-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Huertz/social-api.git"
+  },
+  "author": "Huertz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Huertz/social-api/issues"
+  },
+  "homepage": "https://github.com/Huertz/social-api#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0"
+  }
+}
